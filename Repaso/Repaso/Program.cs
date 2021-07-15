@@ -17,6 +17,9 @@ namespace Repaso
              *      b.- descripcion
              *      c.- cantidad
              *      e.- precio
+             *  2.- Buscar producto
+             *  3.- Entrada de producto
+             *  4.- Salida de producto
              */ 
             
             string[,] agenda = new string[4,5];
@@ -33,6 +36,17 @@ namespace Repaso
                 { 
                     Console.Write("Ingrese: "+vec[c]+": ");
                     agenda[c,f]=Console.ReadLine();
+                }
+            }
+
+            /////////////////////////
+            ////  buscar producto
+            ///
+            for(int f=0; f<5; f++)
+            {
+                for(int c=0; c < 2; c++)
+                { 
+                    
                 }
             }
             
