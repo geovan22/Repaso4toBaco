@@ -46,7 +46,17 @@ namespace Repaso
             {
                 for(int c=0; c < 2; c++)
                 { 
-                    
+                    if(datos[z]==buscar)
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("El dato " + buscar + " si fue ingresado");
+                }
+                else
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("No fue ingresado");
+                }
+            }
                 }
             }
             
