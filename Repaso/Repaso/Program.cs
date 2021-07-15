@@ -19,7 +19,7 @@ namespace Repaso
              *      e.- precio
              */ 
             
-            string [,] agenda = newstring[3,4];
+            string [,] agenda = new string[3,4];
             
         }
     }
