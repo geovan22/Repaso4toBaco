@@ -18,6 +18,9 @@ namespace Repaso
              *      c.- cantidad
              *      e.- precio
              */ 
+            
+            string [,] agenda = new.string[2,5];
+            
         }
     }
 }
