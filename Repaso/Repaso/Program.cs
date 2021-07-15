@@ -24,6 +24,7 @@ namespace Repaso
             
             string[,] agenda = new string[4,5];
             string[] vec=new string[];
+            string buscar;
 
             vec[0]="Nombre";
             vec[1]="Descripcion";
@@ -42,21 +43,24 @@ namespace Repaso
             /////////////////////////
             ////  buscar producto
             ///
+
+            Console.Write("Ingrese producto a buscar: ");
+            buscar=Console.ReadLine();
             for(int f=0; f<5; f++)
             {
                 for(int c=0; c < 2; c++)
                 { 
                     if(datos[z]==buscar)
-                {
-                    Console.WriteLine("");
-                    Console.WriteLine("El dato " + buscar + " si fue ingresado");
-                }
-                else
-                {
-                    Console.WriteLine("");
-                    Console.WriteLine("No fue ingresado");
-                }
-            }
+                    {
+                        Console.WriteLine("");
+                        Console.WriteLine("El dato " + buscar + " si fue ingresado");
+                    }
+                    else
+                    {
+                        Console.WriteLine("");
+                        Console.WriteLine("No fue ingresado");
+                    }
+            
                 }
             }
             
