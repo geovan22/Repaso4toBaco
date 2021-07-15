@@ -19,15 +19,24 @@ namespace Repaso
              *      e.- precio
              */ 
             
-            string [,] agenda = new.string[2,5];
+            string[,] agenda = new string[4,5];
+            string[] vec=new string[];
+
+            vec[0]="Nombre";
+            vec[1]="Descripcion";
+            vec[2]="Cantidad";
+            vec[3]="Precio";
             
-            for(int f=1; f<5; f++)
+            for(int f=0; f<5; f++)
             {
                 for(int c=0; c < 2; c++)
-                {
-                    
+                { 
+                    Console.Write("Ingrese: "+vec[c]+": ");
+                    agenda[c,f]=Console.ReadLine();
                 }
-            }   
+            }
+            
+            Console.ReadKey();
         }
     }
 }
