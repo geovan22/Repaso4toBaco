@@ -10,7 +10,14 @@ namespace Repaso
     {
         static void Main(string[] args)
         {
-
+            /*
+             * Crear un sistema de invventario que permita:
+             * 1.- ingreso de productos
+             *      a.- nombre
+             *      b.- descripcion
+             *      c.- cantidad
+             *      e.- precio
+             */ 
         }
     }
 }
